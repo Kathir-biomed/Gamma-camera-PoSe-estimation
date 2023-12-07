@@ -69,7 +69,7 @@ while True:
             )
             cv.putText(
                 frame,
-                f"X:{round(tVec[i][0][0],1)} Y: {round(tVec[i][0][1],1)} ",
+                f"X:{round(tVec[i][0][0],1)} Y:{round(tVec[i][0][1],1)} ",
                 bottom_right,
                 cv.FONT_HERSHEY_SIMPLEX,
                 0.4,
@@ -112,7 +112,7 @@ while True:
             )
             cv.putText(
                 frame,
-                f"X:{round(tVec[i][0][0],1)} Y: {round(tVec[i][0][1],1)} ",
+                f"X:{round(tVec[i][0][0],1)} Y:{round(tVec[i][0][1],1)} ",
                 bottom_right,
                 cv.FONT_HERSHEY_SIMPLEX,
                 0.4,
